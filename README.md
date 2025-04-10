@@ -20,7 +20,7 @@ Este projeto compara métodos diretos e iterativos para resolver sistemas linear
 
 ### Gráfico de Tempo de Execução vs. Dimensão
 
-![Tempo de Execução](img/time_plot.png)
+![Tempo de Execução](images/comparisons_plot.png)
 
 - **`np.linalg.solve`** tem o menor tempo de execução, graças a otimizações de baixo nível.
 - **Métodos manuais (Pure Gaussian/Pure Jacobi)** são significativamente mais lentos, especialmente para matrizes grandes.
@@ -28,7 +28,7 @@ Este projeto compara métodos diretos e iterativos para resolver sistemas linear
 
 ### Gráfico de Iterações para Convergência
 
-![Iterações](img/iterations_plot.png)
+![Iterações](images/iterations_plot.png)
 
 - Ambos os métodos de Jacobi exigem um número similar de iterações, indicando que a vetorização acelera cada iteração, mas não reduz a quantidade necessária.
 

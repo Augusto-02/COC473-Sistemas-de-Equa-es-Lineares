@@ -72,18 +72,18 @@ onde `||·||` denota a norma Euclidiana.
 
 ### Função Principal: `metodo_jacobi`
 
-```python
-def metodo_jacobi(matriz_coeficientes, vetor_constantes, tolerancia, max_iteracoes):
-    # Implementação detalhada no código
+def metodo_jacobi(matriz_coeficientes, vetor_constantes, tolerancia, max_iteracoes): # Implementação detalhada no código
 
 ## Teoria do Método de Jacobi
 
 O método de Jacobi é um algoritmo iterativo clássico para resolver sistemas lineares da forma `A**x** = **b**`, onde:
+
 - `A` é a matriz de coeficientes (quadrada e diagonalmente dominante para garantir convergência).
 - `**b**` é o vetor de constantes.
 - `**x**` é o vetor solução desconhecido.
 
 ### Fórmula Iterativa
+
 Para cada variável `x_i` na iteração `k+1`, o método calcula:
 
 # Comparação de Métodos para Resolução de Sistemas Lineares
@@ -139,4 +139,3 @@ Este projeto compara métodos diretos e iterativos para resolver sistemas linear
 
 - Python 3.8+
 - Bibliotecas: `numpy`, `matplotlib`, `time`
-```
